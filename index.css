@@ -143,3 +143,30 @@ font-size: 30px;
   transition: all 0.2s ease;
 }
 /*fin du navbar*/
+/*contenu*/
+.contenu{
+  position: absolute;
+  top:22%;
+  left:50%;
+  transform: translateX(-50%) ;
+  width: 40%;
+  height: 90%;
+  background: #b5fcb6;
+  display: block;
+}
+p{
+  position: absolute;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.warning{
+  width: 50%;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+/*fin contenu*/
