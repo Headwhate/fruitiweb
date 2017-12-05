@@ -15,8 +15,14 @@
     <div class="avatar"> <img src="images/avatar.jpg" alt="">
 
     </div>
-    <p class=pseudo>Headwhate</p>
+    <p class=pseudo>{{ name }}</p>
     <!-- fin header -->
+    <!-- loader -->
+    <section class=" section section-5">
+		<span class="loader loader-circle"><span></span></span>
+		chargement...
+	</section>
+    <!-- fin loader -->
 <!-- navbar -->
 <div id="Navbar">
   <div class="burger">
@@ -59,8 +65,23 @@
 </div>
 
 <!--  fin du contenu -->
+<!--  tchat-->
+<div id="tchat">
+  <div id="platform"></div>
+  <form class="tchatform" action="index.html" method="post">
+
+    <textarea  name="message" placeholder="message"></textarea>
+    <input type="submit" name="submit" value="envoyer">
+
+  </form>
+</div>
+<!-- fin  tchat-->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+
   <script src='app.js'></script>
+
+
+  </body>
 </html>

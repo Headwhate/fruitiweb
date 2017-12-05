@@ -1,9 +1,12 @@
+
 $(document).ready(function(){
   // navbar
+$(".section").fadeOut(5000);
+
   $('.burger').click(function(){
     $(this).find(".barre").toggleClass('white')
     $('.nav').toggleClass('isOpen');
-  
+
   });
 
   $('.principaux li:first-child').hover(function(){
